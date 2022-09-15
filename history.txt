@@ -1,0 +1,30 @@
+  175  grep "f;french" < Prenoms.csv | wc -l
+  176  curl https://gist.githubusercontent.com/bhubr/bc3a21a0202109beeb31c4a677e0461b/raw/d8805eb82e8aabffab3b0163596c734f376617d0/wilders.csv
+  177  cat > wilders.csv [200~curl https://gist.githubusercontent.com/bhubr/bc3a21a0202109beeb31c4a677e0461b/raw/d8805eb82e8aabffab3b0163596c734f376617d0/wilders.csv
+  178  curl https://gist.githubusercontent.com/bhubr/bc3a21a0202109beeb31c4a677e0461b/raw/d8805eb82e8aabffab3b0163596c734f376617d0/wilders.csv > wilders.csv
+  179  ls
+  180  cat wilders.csv 
+  181  grep "France,2019,PHP" wilders.csv > php_france_2019.csv
+  182  grep "Biaritz,*,*,Javascript" > Java-Biaritz.csv
+  183  grep "Biarritz,*,*,Javascript" > Java-Biaritz.csv
+  184* grep "Biarritz" > Biarritz.csv
+  185  grep "Biarritz,*,*,Javascript" wilders.csv > Java-Biarritz.csv
+  186  grep "Biarritz" wilders.csv > Java-Biarritz.csv
+  187  grep "Biarritz" wilders.csv > Biarritz.csv
+  188  grep "Toulouse" wilders.csv > Toulouse.csv
+  189  grep "Javascript" Toulouse.csv > Java-Toulouse.csv
+  190  grep "Javascript" Birritz.csv > Java-Biarritz.csv
+  191  grep "Javascript" Biarritz.csv > Java-Biarritz.csv
+  192  history
+  193  tail
+  194  tail history > history.txt
+  195  touch history.txt | tail history > history.txt
+  196  tail --help
+  197  history | tail -n 15
+  198  history | tail -n 15 > listing_commands.txt
+  199  history
+  200  history | tail -n 20 > history.txt
+  201  history | tail -n 30 > history.txt
+  202  ls
+  203  cat Java-Toulouse.csv Java-Biarritz.csv > Javascript_biarritz_toulouse.csv
+  204  history | tail -n 30 > history.txt
