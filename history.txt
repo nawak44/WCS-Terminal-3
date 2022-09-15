@@ -1,3 +1,14 @@
+  164  cd /
+  165  ls
+  166  cd c/usr
+  167  cd c
+  168  ls
+  169  lsls
+  170  d Users/8708309D/Documents/Aventures/
+  171  cd Users/8708309D/Documents/Aventures/
+  172  ls
+  173  cd 'Terminal 3'
+  174  ls
   175  grep "f;french" < Prenoms.csv | wc -l
   176  curl https://gist.githubusercontent.com/bhubr/bc3a21a0202109beeb31c4a677e0461b/raw/d8805eb82e8aabffab3b0163596c734f376617d0/wilders.csv
   177  cat > wilders.csv [200~curl https://gist.githubusercontent.com/bhubr/bc3a21a0202109beeb31c4a677e0461b/raw/d8805eb82e8aabffab3b0163596c734f376617d0/wilders.csv
@@ -28,3 +39,12 @@
   202  ls
   203  cat Java-Toulouse.csv Java-Biarritz.csv > Javascript_biarritz_toulouse.csv
   204  history | tail -n 30 > history.txt
+  205  cat Java-Toulouse.csv Java-Biarritz.csv > Javascript_biarritz_toulouse.csv | sort -u
+  206  cat Java-Toulouse.csv Java-Biarritz.csv | sort -u
+  207  grep "Javascript" wilders.csv > Java.csv
+  208  grep "Toulouse" Java.csv > Javascript_biarritz_toulouse.csv
+  209  grep "Biarritz" Java.csv >> Javascript_biarritz_toulouse.csv
+  210  grep "JavaScript" wilders.csv > Java.csv
+  211  grep "Toulouse" Java.csv > Javascript_biarritz_toulouse.csv
+  212  grep "Biarritz" Java.csv >> Javascript_biarritz_toulouse.csv
+  213  history | tail -n 50 > history.txt
